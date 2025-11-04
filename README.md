@@ -1,12 +1,12 @@
 # Ashwini_Task2
-# 🗒️ Notes App (React + Node.js + JWT Auth – Without Database)
+# Notes App (React + Node.js + JWT Auth – Without Database)
 
 A simple full-stack **Notes App** built using **React (frontend)** and **Node.js + Express (backend)** with **JWT authentication**.  
-👉 This project is designed for learning purposes and **does not use any database** — all data is stored temporarily in arrays (`data.js` file).  
+--> This project is designed for learning purposes and **does not use any database** — all data is stored temporarily in arrays (`data.js` file).  
 
 ---
 
-## 🚀 Features
+## Features
 
 ✅ User Registration and Login (with JWT token)  
 ✅ Add Notes with **Name**, **Topic**, and **Text**  
@@ -38,7 +38,7 @@ A simple full-stack **Notes App** built using **React (frontend)** and **Node.js
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 task/
 ├── backend/
@@ -72,24 +72,17 @@ npm install
 npm start
 
 database
-💾 Data Storage
-
+Data Storage
 Instead of using a database like MongoDB or MySQL,
 data is stored in memory using arrays defined in data.js.
 
 How to Use
-
 Register a new user on the Register page.
-
 Log in using the same credentials.
-
 After logging in, you’ll be redirected to the Notes page.
-
 Add a new note by filling in your name, topic, and text.
-
 View your notes instantly after adding.
-
-Delete any note by clicking the ❌ icon on the note card.
+Delete any note by clicking the DELETE icon on the note card.
 
 Example Test User:
 1.user:test12@gmail.com
@@ -98,20 +91,17 @@ Example Test User:
   psswd: test123
 
 
-🧠 Project Flow Summary
+Project Flow Summary
 
 Frontend Flow
-
 Register → Login → Get JWT → Save in localStorage → Access Notes → Add/Delete Notes
 
-
 Backend Flow
-
 /register → create user  
 /login → generate JWT  
 /notes → verify token → perform CRUD operations
 
 
 Developer: Ashwini J V
-Role: Frontend Developer | Full Stack Enthusiast
+Role: Frontend Developer |Web developer
 Tech Focus: React, Node.js, JavaScript, Tailwind, and APIs
